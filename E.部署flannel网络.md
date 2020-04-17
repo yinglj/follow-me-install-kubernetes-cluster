@@ -37,8 +37,8 @@ flannel 将分配给自己的 Pod 网段信息写入 `/run/flannel/docker` 文�
 ``` bash
 cd /opt/k8s/work
 mkdir flannel
-wget https://github.com/coreos/flannel/releases/download/v0.11.0/flannel-v0.11.0-linux-amd64.tar.gz
-tar -xzvf flannel-v0.11.0-linux-amd64.tar.gz -C flannel
+wget https://github.com/coreos/flannel/releases/download/v0.11.0/flannel-v0.11.0-linux-ppc64le.tar.gz
+tar -xzvf flannel-v0.11.0-linux-ppc64le.tar.gz -C flannel
 ```
 
 分发二进制文件到集群所有节点：
